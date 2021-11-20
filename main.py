@@ -44,7 +44,9 @@ def handle_message(event):
         line_bot_api.reply_message(
             event.reply_token,
             TextSendMessage(text="総合フロント(Reception)\n福岡市中央区天神3丁目3-20\n3-3-20, Tenjin, Chuo-ku, Fukuoka-shi\nTEL:050-1748-1277"))
-
+    line_bot_api.reply_message(
+            event.reply_token,
+            TextSendMessage(text=event.message.text))
 
 if __name__ == "__main__":
 #    app.run()
