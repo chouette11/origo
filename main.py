@@ -63,7 +63,11 @@ def handle_message(event):
     elif "601" in event.message.text:
         line_bot_api.reply_message(
             event.reply_token,
-            ImageSendMessage(original_content_url='https://cdn.glitch.me/2d52d322-2687-4a32-9222-20396f002ffc%2F8931.png?1637433671713',preview_image_url='https://cdn.glitch.me/2d52d322-2687-4a32-9222-20396f002ffc%2F8931.png?1637433671713'))
+            [
+                ImageSendMessage(original_content_url='https://cdn.glitch.me/2d52d322-2687-4a32-9222-20396f002ffc%2F8931.png?1637433671713',preview_image_url='https://cdn.glitch.me/2d52d322-2687-4a32-9222-20396f002ffc%2F8931.png?1637433671713'),
+                TextSendMessage(text="QRコードを読み取ってください")
+            ]   
+        )
     elif "遅れ" in event.message.text:
         line_bot_api.reply_message(
             event.reply_token,
