@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "355493927687",
+    "project_id": "hack-genba",
+    "storage_bucket": "hack-genba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:355493927687:android:d62f6c43785d63847203a2",
+        "android_client_info": {
+          "package_name": "com.example.genba"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "355493927687-mtubf05um5a97qbcknaajmacqgi09qeg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAi0cIGaOpI0FUtJTH0ndh6_DmHXSJGnTE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "355493927687-mtubf05um5a97qbcknaajmacqgi09qeg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
